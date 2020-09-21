@@ -9,7 +9,7 @@ En els vostres repositoris remots no apareix, aixi que els haureu d'obtindre:
   - Quan baixeu els canvis, estos s'aguarden en una branca temporal. Per tant eixa branca temporal caldrà ajuntar-la a la branca master (que és en la que deveu estar). En este cas,
     la branca temporal s'anomena template/xxxxxx ja que és el nom que heu utilitzat en el primer punt, quan heu enllaçat amb el repositori remot.
     
-    Executareu desde la branca master: `git merge template/master`
+    Executareu desde la branca master: `git merge template/master --allow-unrelated-histories`
     Observareu que s'ha abaixat un fitxer anomenat carta de benvinguda.md
     ### En este moment ens hem baixat els canvis que ha fet el professor en un repositori remot utilitzat com a plantilla, a la branca master del nostre repositori local.
     Pero en el nostre repositori remot, eixos canvis no apareixen. Refresqueu el navegador en el repositori de github, i voreu que res ha canviat.
